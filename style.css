@@ -1,17 +1,95 @@
 body {
-    background-image: url("klogo.jpg");
-	background-color: white;
-    background-repeat: no-repeat;
-    background-position: 1000px 500px;
-    width: 95%;
+background-color: white;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
 }
-.logo {
-    background-image: url("comet-gt-250.jpg");
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-  }
+
+.logo-150{
+  
+}
+
+.c150{
+  position: relative;
+  top: 30px;
+  display: inline;
+  width: 300px;
+  height: 170px;
+}
+
+.c250{
+  position: relative;
+  top: -125px;
+  width: 300px;
+  height: 150px;
+  left: 34%;
+}
+
+.gtrcarbura{
+  position: relative;
+  width: 300px;
+  height: 150px;
+  left: 73%;
+  top:-330px;
+  padding-right: 0;
+}
+
+.slogan{
+  position: relative;
+  top: -320px;
+  background:linear-gradient( white 30%, grey 50%);
+  padding-bottom: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.home{
+  display: inline;
+  position: relative;
+  left: 20%;
+  top: -250px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  background-color: black;
+  margin: 0 0 0 0;
+}
+
+main{
+  position: relative;
+  background: linear-gradient(grey 60%, lightgrey);
+  top: -350px;
+  padding-bottom: 1%;
+}
+.text-main{
+  padding-top: 3%;
+  margin-top: -7%;
+  text-align: center;
+}
+.links{
+  position: relative;
+  display: inline;
+  left: 40%;
+  padding-right: 0;
+}
+
+.links a{
+  text-decoration: none;
+  font-size: 17px;
+  color: red;
+  font-family: Arial, sans-serif;
+  transition: 600ms;
+  
+}
+
+.links a:hover{
+  font-size: 20px;
+}
+
   .texto {
     background-color: black;
     color: red;
@@ -26,18 +104,16 @@ body {
     font-size: 30px;
 
   }
- .fundos{
-    position: relative;
-    top: -104px;
-    left: 300px;
-    background-repeat: no-repeat;
-
+ footer{
+  position: relative;
+  background: lightgray;
+  text-align: center;
+  font-size: 10px;
+  transition: 600ms;
+  padding-top: 1%;
+  margin-top: -29% ;
  }
 
- .gtr{
-    position: relative;
-    top: -208px;
-    left: 700px;
-    background-repeat: no-repeat;
-
+ footer:hover{
+  font-size: 15px;
  }
