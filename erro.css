@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+}
+.titulo{
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    vertical-align: top;
+
+}
+.player{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.fidi{
+    position: relative;
+    width: 250px;
+    height: 340px;
+    top: -350px;
+    left: 75%;
+}
+.fi{
+    position: relative;
+    width: 250px;
+    height: 340px;
+    top: -690px;
+    left: 5%;
+
+}
+.texto1{
+    font-size: larger;
+    background-color: red;
+    position: relative;
+    text-align: center;
+    top: -690px;
+}

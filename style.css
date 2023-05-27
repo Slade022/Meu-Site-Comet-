@@ -1,0 +1,43 @@
+body {
+    background-image: url("klogo.jpg");
+	background-color: white;
+    background-repeat: no-repeat;
+    background-position: 1000px 500px;
+    width: 95%;
+}
+.logo {
+    background-image: url("comet-gt-250.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+  .texto {
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .desc{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+  }
+ .fundos{
+    position: relative;
+    top: -104px;
+    left: 300px;
+    background-repeat: no-repeat;
+
+ }
+
+ .gtr{
+    position: relative;
+    top: -208px;
+    left: 700px;
+    background-repeat: no-repeat;
+
+ }
